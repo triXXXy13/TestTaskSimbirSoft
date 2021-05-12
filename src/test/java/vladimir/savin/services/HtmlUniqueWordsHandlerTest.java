@@ -37,7 +37,7 @@ class HtmlUniqueWordsHandlerTest {
     public void saveAndCountCorrectTest(){
 
         String url = "https://www.simbirsoft.com/";
-        String filePath = "/Users/vital/Downloads/htmls/";
+        String filePath = "/Users/Vladimir/Downloads/htmls/";
 
         doReturn(document).when(downloader).downloadFile(url);
 
@@ -52,7 +52,7 @@ class HtmlUniqueWordsHandlerTest {
     public void wrongUrlTest(){
 
         String url = "";
-        String filePath = "/Users/vital/Downloads/htmls/";
+        String filePath = "/Users/Vladimir/Downloads/htmls/";
 
         doReturn(null).when(downloader).downloadFile(url);
 
