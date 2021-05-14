@@ -23,5 +23,5 @@ TestTask.jar.
 Приложение запускается с помощью команды `java -jar TestTask.jar <URL> <filepath>`,
 где URL - адрес web-страницы, а filepath (необязательный параметр) - путь до папки на жестком диске.
 Без данного параметра приложение по умолчанию сохраняет файл в папку где находится архив.
-Пример java -jar TestTask.jar https://www.simbirsoft.com/
+Пример `java -jar TestTask.jar https://www.simbirsoft.com/`
 
